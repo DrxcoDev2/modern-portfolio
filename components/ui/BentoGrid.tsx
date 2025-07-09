@@ -2,9 +2,7 @@
 
 import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import { div, span } from "motion/react-client";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from '@/data/confetti.json'
@@ -33,8 +31,6 @@ export const BentoGridItem = ({
   className,
   title,
   description,
-  header,
-  icon,
   id,
   img,
   imgClassName,
