@@ -1,11 +1,8 @@
 import type { Config } from "tailwindcss";
 const svgToDataUri = require("mini-svg-data-uri");
-const colors = require("tailwindcss/colors");
 const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
 
-
 const config: Config = {
-  
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -96,7 +93,7 @@ const config: Config = {
             transform: "scale(1)",
           },
         },
-        
+
         shimmer: {
           from: {
             backgroundPosition: "0 0",
@@ -162,7 +159,7 @@ const config: Config = {
   plugins: [
     require("tailwindcss-animate"),
     addVariablesForColors,
-    function ({ matchUtilities, theme }) {
+    function ({ matchUtilities, theme }: { matchUtilities: any; theme: any }) {
       matchUtilities(
         {
           "bg-grid": (value) => ({
