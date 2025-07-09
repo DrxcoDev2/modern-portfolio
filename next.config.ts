@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
+const withOptimizedImages = require('next-optimized-images');
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const baseConfig: NextConfig = {
+  reactStrictMode: true,
+  optimizeImages: true,
+  optimizeImagesInDev: true,
+  images: {
+    disableStaticImages: false,
+    domains: ['https://drxcodev.render.com'], // cambia esto por tu dominio real
+  },
 };
 
-export default nextConfig;
+export default withOptimizedImages(baseConfig);
