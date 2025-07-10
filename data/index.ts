@@ -72,13 +72,13 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "Umbra",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      img: "/umbra.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/drxcodev2/umbra",
     },
-    {
+    /*{
       id: 2,
       title: "Yoom - Video Conferencing App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
@@ -101,7 +101,7 @@ export const navItems = [
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
-    },
+    },*/
   ];
   
   export const testimonials = [

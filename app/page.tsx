@@ -4,6 +4,8 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
+import Country from "@/components/Country";
+import { BackgroundBeamsWithCollisionDemo } from "@/components/CoomingSoon";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Grid />
         <RecentProjects></RecentProjects>
+        <Country></Country>
+        <BackgroundBeamsWithCollisionDemo></BackgroundBeamsWithCollisionDemo>
       </div>
     </main>
   );
