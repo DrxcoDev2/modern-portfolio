@@ -1,9 +1,10 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FlipWords } from "./ui/flip-words";
+
+
 
 const Hero = () => {
   const words = ["Better", "Cute", "Beautiful", "Modern"];
@@ -12,7 +13,7 @@ const Hero = () => {
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
-       */}
+       
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 lg:-left-62 h-screen"
@@ -23,7 +24,7 @@ const Hero = () => {
           fill="purple"
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="purple" />
-      </div>
+      </div>*/}
 
       {/**
        *  UI: grid
