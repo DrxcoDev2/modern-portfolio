@@ -78,6 +78,14 @@ export const navItems = [
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/drxcodev2/umbra",
     },
+    {
+      id: 2,
+      title: "Gemini Web",
+      des: "A fan web copy of gemini",
+      img: "/gemini.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/drxcodev2/gemini-web",
+    },
     /*{
       id: 2,
       title: "Yoom - Video Conferencing App",
